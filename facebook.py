@@ -125,10 +125,10 @@ e2.grid(row=1, column=1)
 e3.grid(row=2, column=1)
 
 #e=input('enter email')
-#e = "ar4757@gmail.com"
+#e = ""
 
 #p=input('enter password')
-#p = "W@rtle4757"
+#p = ""
 
 submitButton = Button(master, text="Submit", width=10, command=lambda:listFriends(e1.get(), e2.get(), e3.get()))
 submitButton.grid(row=3, column=1)
